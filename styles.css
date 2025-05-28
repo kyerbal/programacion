@@ -1,7 +1,13 @@
 body {
   margin: 0;
   overflow: hidden;
-  background-color: white;
+  background: #404040;
+  background: linear-gradient(
+    90deg,
+    rgba(64, 64, 64, 1) 0%,
+    rgba(94, 94, 94, 1) 72%,
+    rgba(176, 176, 176, 1) 100%
+  );
 }
 canvas {
   display: block;
