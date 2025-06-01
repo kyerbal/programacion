@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #3a4740;
+  background: linear-gradient(
+    147deg,
+    rgba(58, 71, 64, 0.9) 0%,
+    rgba(152, 113, 27, 0.92) 25%,
+    rgba(77, 47, 39, 0.95) 50%,
+    rgba(17, 57, 74, 0.94) 75%,
+    rgba(44, 48, 41, 0.98) 100%
+  );
+}
+canvas {
+  display: block;
+}
