@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  background: #1a1a1a;
+  overflow: hidden;
+}
+
+.canvas {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.img {
+  position: absolute;
+  transition: opacity 0.5s ease, filter 0.5s ease;
+  opacity: 1;
+  width: auto;
+  height: auto;
+  max-width: 100px;
+}
+
+.textura {
+  position: absolute; /* Asegura que se ajuste al viewport */
+  top: 0;
+  left: 0;
+  width: 100vw; /* Ajusta al ancho del viewport */
+  height: 100vh; /* Ajusta al alto del viewport */
+  object-fit: cover;
+  pointer-events: none;
+}
+
+/* Posiciones */
+#tchico1 {
+  top: 100px;
+  left: 50px;
+}
+#tchico2 {
+  top: 250px;
+  left: 130px;
+  transform: rotate(30deg);
+}
+#cuad1 {
+  top: 180px;
+  left: 320px;
+}
+#cuad2 {
+  top: 350px;
+  left: 370px;
+}
+#tgrande1 {
+  top: 50px;
+  left: 200px;
+}
+#tgrande2 {
+  top: 300px;
+  left: 210px;
+}
