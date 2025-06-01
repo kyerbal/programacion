@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  background: #1a1a1a;
+  overflow: hidden;
+  background-image: url("img/textura.png");
+}
+
+.canvas {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.img {
+  position: absolute;
+  transition: opacity 0.5s ease, filter 0.5s ease;
+  opacity: 1;
+  width: auto;
+  height: auto;
+  max-width: 100px;
+}
+
+/* Posiciones */
+#tchico1 {
+  top: 50%;
+  left: 50%;
+  scale: 1.9;
+}
+#tchico2 {
+  top: 60%;
+  left: 530px;
+  transform: rotate(30deg);
+  scale: 1.7;
+}
+#cuad1 {
+  top: 180px;
+  left: 50%;
+  scale: 5;
+}
+#cuad2 {
+  top: 50%;
+  left: 370px;
+  scale: 3;
+}
+#tgrande1 {
+  top: 25%;
+  left: 200px;
+  scale: 3.5;
+}
+#tgrande2 {
+  top: 37%;
+  left: 210px;
+  scale: 3.7;
+}
