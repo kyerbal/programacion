@@ -20,13 +20,11 @@ let paletaColores = [
 ];
 function setup() {
   createCanvas(720, 1020);
-  background(255);
   angleMode(DEGREES);
   noStroke();
 }
 wi
 function draw() {
-  background(255);
   piezas.sort((a, b) => a.capa - b.capa);
   for (let p of piezas) {
     p.dibujar();
