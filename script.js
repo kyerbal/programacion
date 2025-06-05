@@ -19,7 +19,7 @@ let paletaColores = [
   "rgb(140, 35, 11)"
 ];
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(720, 1020);
   background(255);
   angleMode(DEGREES);
   noStroke();
